@@ -1,0 +1,98 @@
+
+h2{
+    text-align: center;
+    padding: 15px;
+}
+.container{
+    border:solid lightgrey;
+    width: 800px;
+    margin: 0px auto;
+    padding: 15px;    
+}
+#header{
+    height: 50px;
+    background-color:gray;
+    color: white;
+    font-size: 30px;
+    margin-bottom:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner{
+    height: 300px;
+    background-color: rgba(135, 206, 250, 0.699);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+
+}
+#section-1{
+    height:180px;
+}
+#circle{
+    background-color: rgb(253, 178, 38);
+    width: 22%;
+    height:160px ;
+    display: inline-block;
+    margin-left: 17px;
+    border-radius: 50%;
+}
+#section-2:after{
+    content: '';
+    display: block;
+    clear:both;
+}
+#left-side{
+    width: 50%;
+    background-color: grey;
+    height:200px;
+    float: left;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#right-side{
+    width: 48%;
+    height: 200px;
+    float:right;
+
+}
+#Artical{
+height: 60px;
+background-color:orangered;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+
+}
+
+#box{
+    background-color:red;
+    width: 22%;
+    height:180px ;
+    display: inline-block;
+    margin-left: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#Footer{
+    background-color: violet;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
