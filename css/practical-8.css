@@ -11,56 +11,51 @@ padding-top:100px ;
     padding: 15px;    
 }
 #header{
-    height: 60px;
-    font-size: 27px;
+    position: fixed;
+    top: 0;
+    background-color:gray;
+    width:100%;
+    height: 70px;
+   
 }
 #navbar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color:gray;
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    top: 0;
     color:white;
+    font-size: 27px;
+
   }
-  ul li {
-    float: left; 
+  #navbar li {
+    display: inline-block;
   }
 
-  ul li a {
+  #navbar li a {
     display: block;
     color:white;
-    padding-top:10px ;
-    padding-bottom:10px ;
+    padding:20px 0 10px 0;
     text-decoration: none;
   }
-  ul li a:hover {
+  #navbar  li a:hover {
     background-color:white;
     color:black;
-    padding-top: 10px;
   }
 #banner{
     height: 500px;
-    margin-bottom: 40px;
-    margin-top: 30px;
+    margin-top: 90px;  
 }
-#banner img{
-    width:100%;
-    height: 500px;
-}
-#banner h1{
-    position:absolute;
-    top: 100px;
-    color: white;
-    font-size: 50px;
-    padding-left: 20px;
-    padding-top: 10px;
-}
+#banner {
+    background-image: url(../Image1/main.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+#banner h1 {
+  padding: 20px;
+    color: #fff;
+    font-size:50px ;
+  }
 #team{
     height:230px;
     margin-bottom: 40px;
